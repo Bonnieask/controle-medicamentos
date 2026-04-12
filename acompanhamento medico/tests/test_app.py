@@ -1,5 +1,5 @@
 import pytest
-from src.app import adicionar_medicamento, listar_medicamentos
+from app import adicionar_medicamento, listar_medicamentos
 
 def test_adicionar_medicamento():
     adicionar_medicamento("Dipirona", "08:00")
