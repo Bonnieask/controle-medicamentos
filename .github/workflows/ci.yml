@@ -20,6 +20,9 @@ jobs:
       - name: Install ruff
         run: pip install ruff
 
+      - name: Install pytest
+        run: pip install pytest
+
       - name: Run lint
         run: ruff check "acompanhamento medico"
 
