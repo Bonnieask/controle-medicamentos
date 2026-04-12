@@ -27,4 +27,6 @@ jobs:
         run: ruff check "acompanhamento medico"
 
       - name: Run tests
-        run: pytest "acompanhamento medico/tests"
+        run: |
+          cd "acompanhamento medico"
+          pytest
