@@ -1,0 +1,12 @@
+[
+    {
+        "nome": "paracetamol",
+        "horario": "09:00",
+        "tomado": false
+    },
+    {
+        "nome": "Dipirona",
+        "horario": "08:00",
+        "tomado": false
+    }
+]
